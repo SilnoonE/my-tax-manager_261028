@@ -8,7 +8,7 @@
 
 **[Google Play에서 보기](https://play.google.com/store/apps/details?id=com.twentyfive_tax)** · [기술 설명](docs/technical-overview.md) · [UI 개선 전후](docs/ui-case-study.md) · [개편 기록](docs/renewal-notes.md)
 
-> **My Tax Manager**는 ‘내세금관리’를 영어로 풀어 쓴 이 포트폴리오의 이름입니다. 저장소 이름은 `my-tax-manager`이며, 스토어의 언어별 표시 이름과 다를 수 있습니다.
+> **My Tax Manager**는 ‘내세금관리’를 영어로 풀어 쓴 이 포트폴리오의 이름입니다. 저장소 이름은 기존 날짜 표기 `_261028`을 유지한 `my-tax-manager_261028`이며, 스토어의 언어별 표시 이름과 다를 수 있습니다.
 
 ## 첫 수익이 다시 개발하게 만든 계기
 

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Ledger.WhiteChoices" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#245DCA</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorAccent">#245DCA</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorSurfaceVariant">#FFFFFF</item>
+        <item name="colorSurfaceContainerHigh">#FFFFFF</item>
+        <item name="colorOnSurface">#12233D</item>
+        <item name="colorOnSurfaceVariant">#52657D</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:textColorPrimary">#12233D</item>
+        <item name="android:textColorSecondary">#52657D</item>
+        <item name="android:textColorHint">#52657D</item>
+        <item name="android:colorAccent">#245DCA</item>
+        <item name="colorControlActivated">#245DCA</item>
+        <item name="android:popupBackground">@drawable/ledger_choice_popup</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Ledger.WhiteChoiceDialog</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay.Ledger.WhiteDatePicker</item>
+    </style>
+    <style name="ThemeOverlay.Ledger.WhiteChoiceDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorSurfaceContainerHigh">#FFFFFF</item>
+        <item name="backgroundTint">#FFFFFF</item>
+        <item name="colorPrimary">#245DCA</item>
+        <item name="colorOnSurface">#12233D</item>
+        <item name="android:textColorPrimary">#12233D</item>
+        <item name="android:textColorSecondary">#52657D</item>
+    </style>
+    <style name="ThemeOverlay.Ledger.WhiteDatePicker" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:textColorPrimary">#12233D</item>
+        <item name="android:textColorSecondary">#52657D</item>
+        <item name="android:colorAccent">#245DCA</item>
+        <item name="android:windowBackground">@drawable/ledger_choice_popup</item>
+    </style>
+</resources>
